@@ -1,5 +1,5 @@
 import React from "react";
-import ExampleComponent from '../../ExampleComponent';
+import List from './List';
 import logo from '../../image.png';
 import '../../App.css';
 
@@ -15,7 +15,12 @@ const App = () => (
             >
                 Learn Redux/React
             </a>
-            <ExampleComponent />
+            
+            <div>
+                <h2>Articles</h2>
+                <List />
+            </div>
+
         </header>
     </div>
 );
