@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-//mapeamos state a props, para leer el contenido del store y poder mostrarlo
+//mapeamos el state a props, para leer el contenido del store y poder mostrarlo
 const mapStateToProps = state => {
     return { articles: state.articles };
 };
